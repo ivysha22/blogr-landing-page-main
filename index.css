@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    background-color: white;
+    margin: 0 auto;
+    width: 80%;
+
+}
+header{
+    background-image: url('/images/bg-pattern-intro-desktop.svg');
+    background-color: hsl(13, 100%, 72%);
+    padding-bottom: 50px;
+    border-bottom-left-radius: 70px;
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 50px;
+
+}
+.headerA{
+    display: flex;
+    align-items: center;
+    margin: 40px 50px;
+    
+}
+.headerB{
+    display: flex;
+    margin: 40px 70px;
+    align-items: center;
+    gap: 20px;
+}
+.headerB a{
+    text-decoration: none;
+    color: white;
+
+}
+.signup{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    color: hsl(13, 100%, 72%);
+    font-weight: 700;
+    align-items: center;
+}
+.intro-logo{
+    color: white;
+    font-size: 40px;
+    
+}
+.navs{
+    margin: 40px 30px;
+    gap: 20px;
+    display: flex;
+}
+select{
+    border: none;
+    background-color:hsl(13, 100%, 72%) ;
+    color: white;
+}
+.last-head{
+    align-items: center;
+    margin: 20px 320px;
+    width: 50%;
+    
+}
+.headerC h1{
+    font-size: 40px;
+    color: white;
+}
+.headerC p{
+    align-items: center;
+    margin: 10px 80px;
+    color: white;
+    
+}
+.headerD{
+    align-items: center;
+    margin: 10px 60px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 10px 60px;
+    width: 50%;
+}
+.headerD button{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.start{
+    border: none;
+    color: hsl(13, 100%, 72%);
+    font-weight: 600;
+}
+.learn{
+    border: solid 1px white;
+    background-color: hsl(13, 100%, 72%);
+    color: white;
+    font-weight: 600;
+}
+.main1{
+    display: flex;
+    margin-left: 90px;
+    overflow: hidden;
+
+}
+.one{
+    width: 50%;
+}
+.two{
+    width: 50%;
+}
+.two img{
+    width: 100%;
+    align-items: center;
+    position: relative;
+    bottom: 30px;
+    left: 190px;
+    overflow: hidden;
+    
+}
+.main-one h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    color: hsl(237, 23%, 32%);
+    font-weight: 600;
+}
+.main1 h3{
+    color: hsl(237, 23%, 32%);
+}
+.main1 article{
+    color: hsl(240, 2%, 67%);
+}
+.main2{
+    
+    width: 100%;
+    background-color: white;
+    
+}
+.and{
+    background-color: hsl(237, 17%, 21%);
+    height: 200px;
+    margin: 50px 0px;
+    display: flex;
+    padding: 10px 50px;
+    border-bottom-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+.image{
+    width: 100%;
+}
+.main2 img{
+    width: 70%;
+    position: relative;
+    bottom: 80px;
+}
+.three{
+    width: 50%;
+}
+.four{
+    width: 50%;
+    
+}
+.four h3{
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+.four article{
+    color: rgb(224, 217, 217);
+}
+/* uhuh */
+.main3{
+    display: flex;
+    margin: 40px 60px;
+    overflow: hidden;
+}
+.five{
+    width: 80%;
+}
+.six{
+    width: 20%;
+    margin: 80px 0px;
+}
+.five img{
+    width: 100%;
+    position: relative;
+    right: 135px;
+    
+}
